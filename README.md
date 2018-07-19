@@ -1,4 +1,4 @@
-## **Dockerized PHP-CLI with Composer and PHPUnit**
+## **PHP-CLI with Composer and PHPUnit**
 
 * #### Current Tags:
 
@@ -35,7 +35,7 @@ $ composer install --no-dev
 ```
 &nbsp;
 
-## **PHPUnit With dbunit**
+## PHPUnit With dbunit
 
 A Programmer-Oriented Testing Framework for PHP. An instance of the xUnit architecture for unit testing frameworks. Checkout the [**Getting Started with PHPUnit**](https://phpunit.de/getting-started.html) page on the project website for a quick intro. Check the documentation on the [__7.x__](https://phpunit.readthedocs.io/en/7.1/) release.
 
@@ -52,7 +52,7 @@ A Programmer-Oriented Testing Framework for PHP. An instance of the xUnit archit
     <?xml version="1.0" encoding="UTF-8"?>
     <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/7.2/phpunit.xsd"
-             extensionsDirectory="/phpunit.d"
+             extensionsDirectory="/tools/phpunit.d"
              backupGlobals="false"
              backupStaticAttributes="false"
              bootstrap="bootstrap/autoload.php"
