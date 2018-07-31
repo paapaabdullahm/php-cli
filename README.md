@@ -2,11 +2,11 @@
 
 * #### Current Tags:
 
-  - PHP (CLI): **`7.2.*`**
-  - PHPUnit:  **`7.2.*`**
-  - Composer: **`1.6.*`**
+  - PHP (CLI): **`7.2.8`**
+  - PHPUnit:  **`7.2.7`**
+  - Composer: **`1.6.0`**
 
-* #### Shortcut Functions via .bashrc or .zshrc
+* #### Add Functions via .bashrc or .zshrc
 
     ```bash
     php() { docker run --rm -it -w /src -v "$(pwd)":/src  pam79/php-cli php "$@"; }
