@@ -1,5 +1,7 @@
 ## **PHP-CLI with Composer and PHPUnit**
 
+PHP CLI is the command-line interface for PHP. The main focus of CLI Server API is for developing shell applications with PHP. There are quite a few differences between the CLI SAPI and other SAPIs. It is worth mentioning that PHP CLI and PHP FPM are different SAPIs although they do share many of the same behaviors.
+
 * #### Current Tags:
 
   - PHP (CLI): **`7.2.8`**
