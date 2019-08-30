@@ -6,14 +6,14 @@ PHP CLI is the command-line interface for PHP. The main focus of CLI Server API 
 
   - PHP (CLI): **`7.2.8`**
   - PHPUnit:  **`7.2.7`**
-  - Composer: **`1.6.0`**
+  - Composer: **`1.6.5`**
 
 * #### Add Functions via .bashrc or .zshrc
 
     ```bash
     php() { docker run --rm -it -w /src -v "$(pwd)":/src  pam79/php-cli php "$@"; }
     phpunit() { docker run --rm -it -w /src -v "$(pwd)":/src  pam79/php-cli phpunit "$@"; }
-    composer() { docker run --rm -it -w /src -v "$(pwd)":/src  pam79/php-cli composer "$@"; }
+    composer() { docker run --rm --user $(id -u):$(id -g) -it -w /src -v "$(pwd)":/src  pam79/php-cli composer "$@"; }
     ```
 &nbsp;
 
